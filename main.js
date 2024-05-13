@@ -34,9 +34,9 @@
 
 
 
+/* for the slider */
 
-
-  var swiper = new Swiper(".mySwiper", {
+  var swiper = new Swiper(".slider", {
     slidesPerView: 1,
     spaceBetween: 10,
     pagination: {
@@ -46,11 +46,11 @@
     breakpoints: {
       993: {
         slidesPerView: 1,
-        spaceBetween: 20,
+        spaceBetween: 30,
       },
       1024: {
         slidesPerView: 3,
-        spaceBetween: 30,
+        spaceBetween: 15,
       },
     },
     navigation: {
