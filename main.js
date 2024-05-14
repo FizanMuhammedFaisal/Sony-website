@@ -44,11 +44,11 @@
       clickable: true,
     },
     breakpoints: {
-      993: {
+      992: {
         slidesPerView: 1,
         spaceBetween: 30,
       },
-      1024: {
+      993: {
         slidesPerView: 3,
         spaceBetween: 15,
       },

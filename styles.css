@@ -77,7 +77,9 @@ background-color: #2f353d;
 .swiper-button-prev {
  background-color: #2d75c7;
 }
+.the-swiper{
 
+}
 
 .c-card{
 border:none;
@@ -85,6 +87,11 @@ position: relative;
 }
 .card-image{
     max-height: 450px;
+    object-fit: cover;
+    
+}
+.card-image-jpg{
+    max-height: 350px;
     object-fit: cover;
     
 }
@@ -148,6 +155,7 @@ position: relative;
     display: block;
 }
 .low-width{
+   
     display: none;
 }
 
