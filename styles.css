@@ -84,9 +84,7 @@ background-color: #ffffff;
 .swiper-button-prev {
  background-color: #05050585;
 }
-.the-swiper{
 
-}
 .diff-img{
     margin-top: 5%;
 }
@@ -96,20 +94,22 @@ border:none;
 position: relative;
 margin-bottom: 50px;
 }
-/* .c-card ::before{
+
+.shine::before {
     content: '';
     position: absolute;
-    z-index: 11111;
     top: 0;
     left: 0;
-    background-color: #ffffff00;
     width: 100%;
     height: 100%;
-
-}
-.c-card :hover ::before{
-    background-color: hsla(0, 0%, 100%, 0.384);
-} */
+    background-color: rgba(0, 0, 0, 0);
+    transition: background-color 0.4s ease-in-out;
+  }
+  
+  .shine:hover::before {
+    background-color: rgba(255, 255, 255, 0.103); /* Adjust opacity as needed */
+    cursor: pointer;
+  }
 
 .card-image{
     width: 100%;
@@ -239,9 +239,14 @@ margin-bottom: 50px;
     column-gap: 10px;
     row-gap: 3px;
     flex-wrap: wrap;
+
 }
 .footer-ul li{
     font-size: 14px;
+}
+.footer-ul li:hover{
+    cursor: pointer;
+    color: #ced7e09c;
 }
 .icon-tray{
     display: flex;   
