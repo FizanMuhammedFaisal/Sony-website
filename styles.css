@@ -9,6 +9,7 @@ body{
 /* header */
 .bg-custom{
     background-color: black;
+    
 }
 .sony-logo{
     width: 114px;
@@ -307,6 +308,21 @@ margin-bottom: 50px;
     cursor: pointer;
 }
 
+
+.options{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    max-width: 400px;
+    max-height: 250px;
+    z-index: 100000;
+    right: 5%;
+    top: 0;
+    color: #2f353d;
+  display: none;
+}
+.toggle{
+display: block;
+}
 /* media queryss */
 
 
@@ -314,7 +330,7 @@ margin-bottom: 50px;
 
 
 
-@media (max-width:992px){
+@media (width <= 992px){
 .image-1-max{
     display: none;
 }
